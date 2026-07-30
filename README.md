@@ -1,30 +1,31 @@
 # ProTrainer-IV
 
-ProTainer-IV est un modmenu lua pour GTA IV.
+ProTrainer-IV est un modmenu Lua pour GTA IV, exécuté via
+[TrainerInjector](https://github.com/Zalgo-Dev/Trainer_Injector).
 
 ## Installation
 
-Pour utiliser ProTrainer-IV, vous devez d'abord télécharger TrainerInjector.
-
-1. Clonez le dépôt : `git clone https://github.com/Zalgo-Dev/TrainerInjector.git`
-2. Dezippez le dossier et placez le sur votre bureau ou dans les documents
-3. Déplacez le dossiers '/scripts' dans 'C:/Users/VOTRE_USER/Desktop/TrainerInjector/'
-4. Exécutez 'TrainerInjector.exe'
-5. Lancez votre jeu et attendez de voir vôtre personnage
-6. Retournez dans 'TrainerInjector.exe' afin d'appuyer sur 'Inject'
-7. Cliquez sur 'Open Scripts' et sélectionnez le fichier lua
-8. Cliquez sur 'Attach' et le trainer sera injecté dans le jeu
+1. Crée un dossier n'importe où (recommandé : bureau ou documents).
+2. Télécharge la dernière release de
+   [TrainerInjector](https://github.com/Zalgo-Dev/Trainer_Injector/releases)
+   (`TrainerInjector.exe`, `TrainerInjector.dll`, `Scintilla.dll`,
+   `Lexilla.dll`) et place les 4 fichiers dans ce dossier.
+3. Glisse le dossier [`scripts`](scripts) de ce dépôt dans le même dossier.
+4. Lance `TrainerInjector.exe`.
+5. Lance GTA IV et attends d'être en jeu (personnage visible).
+6. Retourne dans `TrainerInjector.exe` et clique sur "Injecter".
+7. Double-clique sur `main.lua` dans la liste à droite - il se charge dans
+   l'éditeur de code.
+8. Clique sur "Executer" - le mod menu est prêt.
+9. Retourne sur GTA IV et appuie sur **F4** pour ouvrir le menu.
 
 ## Utilisation
 
-Les scripts stockés dans /scripts sont affichés dans la colonne de droite.
-
-- Sélectionnez le script désiré et appuyez sur 'Load' pour l'éditer.
-- Modifiez le code selon vos envies.
-- Appuyez sur 'Save' pour sauvegarder les modifications.
-- Appuyez sur 'Clear' pour retirer le script de l'éditeur de code.
-- Appuyez sur 'Execute' (F5) pour exécuter le script chargé.
-- Appuyez sur 'Refresh' pour recharger la liste des scripts.
+- Navigation dans le menu en jeu : flèches + Entrée/Retour, touche **F4**
+  pour ouvrir/fermer.
+- Dans `TrainerInjector.exe` : double-clique un script pour le charger dans
+  l'éditeur, "Executer" pour le lancer, "Sauver" pour enregistrer tes
+  modifications.
 
 ## Fonctionnalités
 
@@ -32,5 +33,5 @@ Les scripts stockés dans /scripts sont affichés dans la colonne de droite.
 - Armure infinie
 - Invincibilité
 - Niveau de recherche bloqué
-- Armes illimitées
-- Réparation du véhicule
+- Armes/munitions illimitées
+- Réparation et spawn de véhicule
