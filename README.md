@@ -10,7 +10,7 @@ ProTrainer-IV est un modmenu Lua pour GTA IV, exécuté via
    [TrainerInjector](https://github.com/Zalgo-Dev/Trainer_Injector/releases)
    (`TrainerInjector.exe`, `TrainerInjector.dll`, `Scintilla.dll`,
    `Lexilla.dll`) et place les 4 fichiers dans ce dossier.
-3. Glisse le dossier [`scripts`](scripts) de ce dépôt dans le même dossier.
+3. Glisse le dossier [`mods`](mods) de ce dépôt dans le même dossier.
 4. Lance `TrainerInjector.exe`.
 5. Lance GTA IV et attends d'être en jeu (personnage visible).
 6. Retourne dans `TrainerInjector.exe` et clique sur "Injecter".
